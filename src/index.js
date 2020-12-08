@@ -8,7 +8,8 @@ import { BrowserRouter as Router} from 'react-router-dom';
 import { ApolloClient, createHttpLink, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 const link = createHttpLink({
-  uri: 'http://localhost:3001/graphql',
+  //uri: 'http://localhost:3001/graphql',
+  uri: 'https://italianhubot-dashboard.herokuapp.com:3001/graphql',
   credentials: 'include',
 });
 
