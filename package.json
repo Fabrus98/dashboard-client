@@ -1,5 +1,6 @@
 {
   "name": "dashboard-client",
+  "homepage": "https://italianhubot.it",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +12,7 @@
     "@testing-library/react": "^11.1.2",
     "@testing-library/user-event": "^12.2.2",
     "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
     "formik": "^2.2.5",
     "framer-motion": "^2.9.4",
     "graphql": "^15.4.0",

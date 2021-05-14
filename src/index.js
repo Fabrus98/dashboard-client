@@ -9,7 +9,7 @@ import { ApolloClient, createHttpLink, InMemoryCache, ApolloProvider } from '@ap
 
 const link = createHttpLink({
   //uri: 'http://localhost:3001/graphql',
-  uri: 'https://italianhubot-dashboard.herokuapp.com:3001/graphql',
+  uri: 'https://italianhubot.it:443/graphql',
   credentials: 'include',
 });
 
